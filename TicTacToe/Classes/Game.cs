@@ -70,7 +70,6 @@ namespace TicTacToe.Classes
             return currentPlayer;
         }
 
-
         /// <summary>
         /// Check if winner exists
         /// </summary>
