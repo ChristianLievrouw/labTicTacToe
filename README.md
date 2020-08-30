@@ -7,3 +7,5 @@
 3. Each player enters thier name
    Once the game has started you take turns placing an x or an o in board
    Once a player gets either 3 x's or o's in a row they win!!
+
+![.NET Core](https://github.com/ChristianLievrouw/labTicTacToe/workflows/.NET%20Core/badge.svg)
