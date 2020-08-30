@@ -15,22 +15,18 @@ namespace TicTacToe.Classes
 			{"4", "5", "6"},
 			{"7", "8", "9"},
 		};
-
-
 		public void DisplayBoard()
 		{
-
 			//TODO: Output the board to the console
-			for(int i = 0; i < 3; i++)
-            {
-				string spot = "";
-				for(int j = 0; j < 3; j++)
-                {
-                    spot = $"{spot} | {GameBoard[i, j]}";
-                }
-                Console.WriteLine($"{spot} |");
-            }
-
+			for (int i = 0; i < 3; i++)
+			{
+				for (int j = 0; j < 3; j++)
+				{
+					Console.Write($"|{GameBoard[i, j]}| ");
+				}
+				Console.Write("\n");
+			}
+			Console.ReadLine();
 		}
 	}
 }
